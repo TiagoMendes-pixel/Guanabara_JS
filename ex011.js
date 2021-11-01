@@ -1,12 +1,15 @@
 //Condiçõe aninhadas - aula de JavaScript Guanabara
-
-var idade = 14
-if(idade < 18 ){
+//Algoritmo para descobri se vota ou não vota
+var idade = 9
+console.log(`Você tem ${idade} anos`)
+if(idade < 16 ){
 console.log('Não vota')
-
-}else {
-    console.log('vota')
+}else if (idade < 18 || idade > 65){
+    console.log('voto opcional')
+} else {
+    console.log('voto obrigatório')
 }
-//fazendo os exercícios do Guanabs
+
+
 
 
