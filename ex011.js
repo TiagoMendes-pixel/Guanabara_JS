@@ -5,6 +5,8 @@ if(idade < 18 ){
 console.log('Não vota')
 
 }else {
-    console.log('vota sim')
+    console.log('vota')
 }
+//fazendo os exercícios do Guanabs
+
 
